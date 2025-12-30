@@ -48,7 +48,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile menu */}
-                    <div className={`fixed top-0 left-0 h-full w-full bg-white text-base  md:hidden  transition-all duration-500 ${isMenuOpen ? "translate-x-0": "-translate-x-full"}`}>
+                    <div className={`fixed top-0 left-0 h-full w-full bg-sky-100 text-base  md:hidden  transition-all duration-500 ${isMenuOpen ? "translate-x-0": "-translate-x-full"}`}>
                         <button className='absolute top-4 right-4' onClick={() => setIsMenuOpen(false)}>
                             <svg className='h-8 w-6 text-zinc-800 cursor-pointer' fill='node' stroke="currentColor" strokeWidth="2" viewBox='0 0 24 24'>
                                 <line x1="18" y1="6" x2="6" y2="18" />
